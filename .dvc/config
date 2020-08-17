@@ -1,0 +1,6 @@
+[core]
+    remote = data_remote
+['remote "data_remote"']
+    url = s3://banjo-sandbox-intel/data/yolov3_transfer_learning/data
+['remote "model_remote"']
+    url = s3://banjo-sandbox-intel/data/yolov3_transfer_learning/model
